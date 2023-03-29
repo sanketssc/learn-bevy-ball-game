@@ -7,6 +7,7 @@ pub const NUMBER_OF_ENEMIES: usize = 4; //number of enemies
 pub const ENEMY_SPEED: f32 = 200.0; //enemy speed
 pub const ENEMY_SIZE: f32 = 64.0; //enemy sprite size
 
+
 fn main() {
     App::new()
         .add_plugins(DefaultPlugins) //load default plugins
